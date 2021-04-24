@@ -4,8 +4,8 @@ frontend:
     preBuild:
       commands:
         - nvm ls-remote
-        - nvm install 11.15.4
-        - nvm use 11.15.4
+        - nvm install 11.15.0
+        - nvm use 11.15.0
         - yarn install
     build:
       commands:

@@ -9,7 +9,7 @@ frontend:
         - yarn install
     build:
       commands:
-        - yarn run build
+        - npm run ci
   artifacts:
     baseDirectory: dist/browser
     files:

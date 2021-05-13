@@ -19,7 +19,7 @@
     "format:fix": "npm run format:base -- --write"
   },
   "engines": {
-    "node": "11.15.0"
+    "node": "12.x"
   },
   "husky": {
     "hooks": {

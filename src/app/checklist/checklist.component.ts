@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MatDialog, MatSidenav } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
+import { MatSidenav } from '@angular/material/sidenav';
 import { Router } from '@angular/router';
 import { select, Store } from '@ngrx/store';
 import { BehaviorSubject, combineLatest, Observable, of, zip } from 'rxjs';

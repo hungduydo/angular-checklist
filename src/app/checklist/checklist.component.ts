@@ -45,7 +45,7 @@ export class ChecklistComponent implements OnInit {
 
   sideNavMode = 'side';
 
-  @ViewChild(MatSidenav)
+  @ViewChild(MatSidenav, { static: false })
   sideNav: MatSidenav;
 
   constructor(
